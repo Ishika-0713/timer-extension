@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" type="image/png" href="./favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="background-color:palevioletred">
+    <h2 for="hoursInput">Set Timer </h2>
+
+    <input type="number" id="hoursInput" min="0" max="59" placeholder="0">
+    <label for="minutesInput">:</label>
+    <input type="number" id="minutesInput" min="0" max="59" placeholder="0">
+    <label for="secondsInput">:</label>
+    <input type="number" id="secondsInput" min="0" max="59" placeholder="0">
+    <button id="startButton" class="button btn"><i class="fa fa-play"></i></button>
+
+        <p id="countdown"></p>
+    
+    <!-- Include script.js for your main extension functionality -->
+    <!-- <script src="script.js"></script> -->
+    <!-- Include popup.js for handling interactions in the popup interface -->
+    <script src="popup.js"></script>
+</body>
+</html>

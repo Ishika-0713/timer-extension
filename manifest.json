@@ -1,0 +1,19 @@
+{
+    "name": "Upcoming Alert",
+    "version": "2.0.0",
+    "description":"Practice ext",
+    "manifest_version":3,
+    "author":"me",
+    "permissions": ["alarms", "activeTab", "storage", "audio"],
+  "background": {
+    "service_worker": "background.js"
+  },
+    "icons": {
+        "32": "./favicon/favicon-32x32.png"
+    },
+    "action":{
+        "default_popup": "index.html",
+        "default_title":"Upcoming Alert"
+    }
+
+}
